@@ -1,7 +1,7 @@
-import React from 'react';
+import css from './AdvantagesSection.module.css';
 
 const AdvantagesSection = () => {
-  return <div>AdvantagesSection</div>;
+  return <div className={css.container}></div>;
 };
 
 export default AdvantagesSection;
