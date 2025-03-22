@@ -1,10 +1,10 @@
 import './App.module.css';
-import SharedLayout from './SharedLayout.jsx';
-import RestrictedRoute from './RestrictedRoute.jsx';
-import PrivateRoute from './PrivateRoute.jsx';
+import SharedLayout from './components/SharedLayout/SharedLayout.jsx';
+import RestrictedRoute from './routes/RestrictedRoute.jsx';
+import PrivateRoute from './routes/PrivateRoute.jsx';
 
 import { Routes, Route } from 'react-router-dom';
-import { lazy } from 'react';
+import { lazy, Suspense } from 'react';
 
 const HomePage = lazy(() => import('./pages/HomePage/HomePage.jsx'));
 const TrackerPage = lazy(() => import('./pages/TrackerPage/TrackerPage.jsx'));
