@@ -7,10 +7,11 @@
   --sub-text: #2f2f2f;
   --white: #fff;
   --green: #9be1a0;
+  --green-hover: #87d28d;
   --grey: #f0eff4;
   --grey-hover: #bcbcbc;
   --font-family: 'Poppins', sans-serif;
-  --font-family: 'Gilroy', sans-serif;
+  /* --font-family: 'Gilroy', sans-serif;  */
 }
 
 /*========================*/

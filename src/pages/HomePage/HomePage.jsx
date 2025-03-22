@@ -1,5 +1,13 @@
-import React from 'react';
+import WelcomeSection from '../../components/WelcomeSection/WelcomeSection.jsx';
+import AdvantagesSection from '../../components/AdvantagesSection/AdvantagesSection.jsx';
 
-export const HomePage = () => {
-  return <div>HomePage</div>;
+const HomePage = () => {
+  return (
+    <div>
+      <WelcomeSection />
+      <AdvantagesSection />
+    </div>
+  );
 };
+
+export default HomePage;
