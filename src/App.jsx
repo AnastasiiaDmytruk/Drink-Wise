@@ -23,8 +23,10 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
+      <Route path="/signup" element={<SignUpPage />} />
+      <Route path="/signin" element={<SignInPage />} />
 
-      <Route
+      {/* <Route
         path="/"
         element={
           <RestrictedRoute redirectTo="/tracker">
@@ -55,7 +57,7 @@ function App() {
             <TrackerPage />
           </PrivateRoute>
         }
-      />
+      /> */}
       <Route path="/google-oauth" element={<GooglePage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
