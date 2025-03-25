@@ -72,7 +72,11 @@ h1 {
     padding-top: 50px;
     padding-bottom: 18px;
     padding-left: 32px;
+    padding-right: 29px;
     max-width: 547px;
+
+    /* padding: 132px 29px 156px 32px; */
+    width: 547px;
   }
   h2 {
     font-size: 16px;
@@ -97,10 +101,11 @@ h1 {
     padding-top: 132px;
     padding-bottom: 156px;
     max-width: 547px;
+    box-sizing: content-box;
   }
 
   h1 {
     font-size: 80px;
-    line-height: 1;
+    line-height: 0.9;
   }
 }
